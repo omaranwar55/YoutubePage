@@ -1,0 +1,359 @@
+<! doctype html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="description" value="welcome to third ass again"/>
+<title>my first website</title>
+<style>
+#table1{
+width:1350;
+}
+#search{
+width:900;
+height:30;
+}
+#sear
+{
+width:32px;
+height:15px;
+}
+img{
+width:30px;
+height:30px;
+}
+#youtube{
+width:90;
+height:60;
+}
+#sub
+{
+width:100;
+height:40;
+}
+#tamer{
+width:800px;
+height:400px;
+}
+#etisalat{
+float:floatleft;
+width:450;
+height:200;
+}
+
+#likee{
+width:35px;
+height:35px;
+}
+#commentfor
+{
+float:right;
+align:center;
+padding:10px;
+}
+#table2
+{
+border-collapse:collapse;
+width:1200;
+}
+.videos{
+width:200;
+height:100;
+}
+#comvid{
+width:1500;
+height:200;
+border-collapse:collapse;
+padding:10px;
+}
+#comments
+{
+width:50%;
+float:left;
+}
+#videos
+{
+height:900;
+width:625;
+float:right;
+}
+#under{
+height:50;
+width:870;
+}
+.text{
+width:40px;
+background-color:#ccc;
+}
+a{
+text-decoration:none;
+color:black;
+}
+</style>
+<script>
+
+function like()
+{
+var counter=document.getElementById("like").value;
+counter++;
+document.getElementById("like").value=counter;
+alert("you liked this video");
+}
+
+function unlike()
+{
+var counter=document.getElementById("unlike").value;
+counter++;
+document.getElementById("unlike").value=counter;
+alert("you unliked this video");
+}
+
+function share()
+{
+var counter=document.getElementById("share").value;
+counter++;
+document.getElementById("share").value=counter;
+alert("you will share this video in your Youtube channel");
+}
+
+function sub()
+{
+alert("you subscribed this channel");
+}
+
+
+</script>
+
+</head>
+
+<body>
+<table id="table1">
+<tr>
+<th>
+<a href="http://www.youtube.com"><img src="youtube.jpg" id="youtube"></a>
+</th>
+<th>
+<form action="https://www.youtube.com/search" method="GET">
+<input type="text" name="q" placeholder="Seach" align="center" id="search">
+<input type="image" src="icon.png" id="sear"/>
+</form>
+</th>
+<th>
+<a href="https://www.youtube.com/account_notifications"><img src="noti.jpg" alt="noti photo"/></a>
+<a href="https://tv.youtube.com/welcome/?utm_campaign=home&utm_source=youtube_web&utm_medium=ep&ve=34273"><img src="apps.png" alt="apps photo"/></a>
+<a href="https://www.youtube.com/upload"><img src="video.jpg" alt="video photo"></a>
+</th>
+<br>
+</tr>
+</table>
+
+<table id="table2">
+<tr>
+<td>
+<img src="tamer.jpg" id="tamer"/>
+<div>
+<table id="under">
+<tr>
+<td><div id="title"><h4>Tamer hosny - kfyak azar music video 4K -  «„— Õ”‰Ì ﬂ›Ì«ﬂ «⁄“«—</h4></div></td>
+<td><input type="image" src="sub.png" id="sub" onclick="sub()"/></td>
+</tr>
+<td><div id="review"><h5>68,855,004 viewsïAug 2, 2018</h5></div></td>
+<td>
+<input type="image" src="like.jpg" id="likee" onclick="like()"/><input type="text" class="text" value="480" id="like"/>
+<input type="image" src="unlike.jpg" id="likee" onclick="unlike()"/><input type="text" class="text" value="80" id="unlike"/>
+<input type="image" src="share.png" id="likee" onclick="share()"/><input type="text" class="text" value="2547" id="share"/>
+</td>
+</table>
+</div>
+</td>
+<br>
+<td>
+<a href="https://www.etisalat.com/"><img src="etisalat.png" id="etisalat"/></a><br><br>
+<a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I"><h3>Up to next</h3></a>
+<table>
+<td>
+<div><a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I"><img src="naseny.jpg" class="videos"/></a></div>
+
+<td>
+<td>
+<a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I"><h4>tamer hosny-naseny leh video</h4></a>
+<a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I"><h4>ﬂ·Ì»  «„— Õ”‰Ì - ‰«”Ì‰Ì ·ÌÂ </h4></a>
+</td>
+</table>
+<hr>
+</table>
+
+<table id="comvid">
+
+<th>
+<div id="videos">
+<table id="tableforvideos">
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=AX8QOuy7YJs"><img src="bdaya.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=AX8QOuy7YJs"><h4>Hamaki - Mel Bedaya Official Lyrics</h4></a>
+<a href="https://www.youtube.com/watch?v=AX8QOuy7YJs"><h4>Õ„«ﬁÌ - „ «·»œ«Ì… - ﬂ·„« </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=7iSJbEUuRnE"><img src="ensay.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=7iSJbEUuRnE"><h4>Ramadan & Saad Lamjarred - Ensay</h4></a>
+<a href="https://www.youtube.com/watch?v=7iSJbEUuRnE"><h4>„Õ„œ —„÷«‰ Ê”⁄œ «·„Ã—œ - ≈‰”«Ì</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=a4nixJxV0FU"><img src="adreen.png" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=a4nixJxV0FU"><h4>Hamaki - adreen ne'mlha</h4></a>
+<a href="https://www.youtube.com/watch?v=a4nixJxV0FU"><h4>Õ„«ﬁÌ - ﬁ«œ—Ì‰ ‰⁄„·Â« </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=RkmJwLALysM"><img src="wara.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=RkmJwLALysM"><h4>tamer vs ellisa - wara el shbabek</h4></a>
+<a href="https://www.youtube.com/watch?v=RkmJwLALysM"><h4>ﬂ·Ì»  «„— Õ”‰Ì Ê «·Ì”« -„‰ Ê—« «·‘»«»Ìﬂ</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><img src="drga.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><h4>tamer hosny -180 darga video</h4></a>
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><h4>ﬂ·Ì»  «„— Õ”‰Ì -180 œ—ÃÂ</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=GlEKvonWaH4"><img src="serto.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=GlEKvonWaH4"><h4>√’«·… - Ã«»Ê« ”Ì— Â [Assala - Gabo Serto]</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=olfKd-SHh30&list=RDu0PlTxTVQ3I&index=14"><img src="fad.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=olfKd-SHh30&list=RDu0PlTxTVQ3I&index=14"><h4>tamer hosny-fad bya video</h4></a>
+<a href="https://www.youtube.com/watch?v=olfKd-SHh30&list=RDu0PlTxTVQ3I&index=14"><h4>ﬂ·Ì»  «„— Õ”‰Ì - ›«÷ »Ì« </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=aSyIrej6hyU"><img src="orbak.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=aSyIrej6hyU"><h4>[Assala - Fi Orbak [LYRICS VIDEO</h4></a>
+<a href="https://www.youtube.com/watch?v=aSyIrej6hyU"><h4>√’«·… - ›Ì ﬁ—»ﬂ </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=1R0qL1exR9s"><img src="omry.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=1R0qL1exR9s"><h4>tamer hosny-omry ebtada video</h4></a>
+<a href="https://www.youtube.com/watch?v=1R0qL1exR9s"><h4>ﬂ·Ì»  «„— Õ”‰Ì -⁄„—Ì «» œÌ </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=f0X2mC6F9sg"><img src="sabok.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=f0X2mC6F9sg"><h4>[Assala - sabok [LYRICS VIDEO</h4></a>
+<a href="https://www.youtube.com/watch?v=aSyIrej6hyU"><h4>√’«·… - ”«»Êﬂ </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=nqPPCdlmmE4"><img src="kteer.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=nqPPCdlmmE4"><h4>Sherine - Ana Keter | ‘Ì—Ì‰ - √‰« ﬂ Ì— </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=ncyVV9bwmdU"><img src="esh.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=ncyVV9bwmdU"><h4>tamer hosny-eish besho'ak video</h4></a>
+<a href="https://www.youtube.com/watch?v=ncyVV9bwmdU"><h4>ﬂ·Ì»  «„— Õ”‰Ì -⁄Ì‘ »‘Êﬁﬂ</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=cOzcBAoR1vU"><img src="nsay.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=cOzcBAoR1vU"><h4>Sherine - Nassay | ‘Ì—Ì‰ - ‰”«Ì</h4></a>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=g7bk98SNEbQ"><img src="bhbak.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=g7bk98SNEbQ"><h4>tamer hosny-bahbak enta video</h4></a>
+<a href="https://www.youtube.com/watch?v=g7bk98SNEbQ"><h4>ﬂ·Ì»  «„— Õ”‰Ì -»Õ»ﬂ «‰ </h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=VQc613pd-2E"><img src="balash.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=VQc613pd-2E"><h4>Hamaki - Ma Balash Clip /</h4></a>
+<a href="https://www.youtube.com/watch?v=VQc613pd-2E"><h4>Õ„«ﬁÌ - ﬂ·Ì» „« »·«‘</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><img src="nancy.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><h4>tamer hosny vs nancy - ramadan</h4></a>
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU"><h4>  «„— Õ”‰Ì Ê ‰«‰”Ì ⁄Ã—„- —„÷«‰ 2019</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=8qQ3v0o-xPY"><img src="baly.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=8qQ3v0o-xPY"><h4>Sherine - 3ala Bali | ‘Ì—Ì‰ - ⁄·Ï »«·Ì</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=xJom7RUo_dQ"><img src="hgag.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=xJom7RUo_dQ"><h4>tamer hosny - 100 wesh video 4K/</h4></a>
+<a href="https://www.youtube.com/watch?v=xJom7RUo_dQ"><h4>ﬂ·Ì»  «„— Õ”‰Ì Ê „’ÿ›Ì ÕÃ«Ã-100 Ê‘</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=vEfW9sm70tg"><img src="mshar.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=vEfW9sm70tg"><h4>Sherine - Masha'er | ‘Ì—Ì‰ - „‘«⁄—</h4></a>
+</td>
+</tr>
+
+<tr>
+<td><div><a href="https://www.youtube.com/watch?v=7NLA5iSS2AQ"><img src="hyaty.jpg" class="videos"/></a></div><br></td>
+<td>
+<a href="https://www.youtube.com/watch?v=7NLA5iSS2AQ"><h4>tamer hosny-ha3esh hiaty video</h4></a>
+<a href="https://www.youtube.com/watch?v=7NLA5iSS2AQ"><h4>ﬂ·Ì»  «„— Õ”‰Ì -Â⁄Ì‘ ÕÌ« Ì</h4></a>
+</td>
+</tr>
+
+</td>
+</tr>
+
+</td>
+</tr>
+</table>
+
+</div>
+<th>
+</tr>
+</table>
+
+</body>
+
+</html>

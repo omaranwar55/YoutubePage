@@ -1,0 +1,608 @@
+<! doctype html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="description" value="welcome to third ass again"/>
+<title>my first website</title>
+<style>
+
+#table1{
+width:1300;
+height:40;
+}
+#youtube{
+width:90;
+height:40;
+border-radius:50%;
+}
+#search{
+width:900;
+height:30;
+align:center;
+}
+#sear
+{
+width:32px;
+height:15px;
+border-radius:50%;
+}
+.fourphotos
+{
+border-radius:50%;
+}
+#tamerlink{
+width:90px;
+height:100px;
+border-radius:50%;
+}
+
+#table2
+{
+width:1300;
+height:630;
+}
+#tamer{
+width:800px;
+height:400px;
+}
+#sub
+{
+width:100;
+height:40;
+}
+#likee{
+width:20px;
+height:20px;
+}
+.text{
+width:40px;
+background-color:silver;
+border-bottom-style:none;
+}
+#etisalat{
+float:floatleft;
+width:450;
+height:200;
+}
+.videos{
+width:200;
+height:100;
+}
+img{
+width:30px;
+height:30px;
+}
+a{
+text-decoration:none;
+color:black;
+}
+h5{color:#808080;}
+#showDiv{width:150px;}
+</style>
+<script src="jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+$("#showDiv").click(function(){
+$("#showDiv").hide();
+$(".myDiv").show();
+});
+
+});
+</script>
+<script>
+
+
+
+function like()
+{
+var counter=document.getElementById("like").value;
+counter++;
+document.getElementById("like").value=counter;
+alert("you liked this video");
+}
+
+function unlike()
+{
+var counter=document.getElementById("unlike").value;
+counter++;
+document.getElementById("unlike").value=counter;
+alert("you unliked this video");
+}
+
+function share()
+{
+var counter=document.getElementById("share").value;
+counter++;
+document.getElementById("share").value=counter;
+alert("you will share this video in your Youtube channel");
+}
+
+function sub()
+{
+alert("you subscribed this channel");
+}
+function save()
+{
+alert("this vidoe is saved in your pc ");
+}
+</script>
+</head>
+
+<body>
+
+
+<!-------------------- table1 for youtube link , sreach text and button , Notifications , youtube tv and upload a video -------------------------------------->
+
+
+<table id="table1">
+<tr>
+<th>
+<a href="http://www.youtube.com"><img src="you.png" id="youtube"></a>
+</th>
+<th>
+<form action="https://www.youtube.com/search" method="GET">
+<br>
+<input type="text" name="q" placeholder="Seach" align="center" id="search" style="autocomplete" />
+<input type="image" src="icon.png" id="sear"/>
+</form>
+</th>
+<th>
+<a href="https://www.youtube.com/account_notifications"><img src="noti.jpg" alt="noti photo" class="fourphotos" /></a>
+<a href="https://tv.youtube.com/welcome/?utm_campaign=home&utm_source=youtube_web&utm_medium=ep&ve=34273"><img src="apps.png" alt="apps photo" class="fourphotos" /></a>
+<a href="https://www.youtube.com/upload"><img src="video.jpg" alt="video photo" class="fourphotos" /></a>
+<a href="https://www.youtube.com/channel/UCR2vAN4pJ7mX4OQtjY9nJ1g?view_as=subscriber"><image src="omar.jpg" alt="my photo" class="fourphotos" /></a>
+</th>
+<br>
+</tr>
+</table>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!---------------- table2 for played video , subscribe , reviews , like , unlike , share , adv , up to next link and first three videos ---------------------->
+
+
+<table id="table2">
+<tr>
+<td>
+<div id="mainvideo">
+<iframe id="tamer" src="https://www.youtube.com/embed/sfCy1JhCwWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<table>
+<tr>
+<th>
+<h4 colspan="2">تامر حسني - كفاياك أعذار - ڤيديو كليب / Tamer Hosny - Kefaiak a'azar - Music Video 4K
+</h4>
+</th>
+</tr>
+<tr>
+<td>
+<h5>68,855,004 views•Aug 2, 2018</h5>
+</td>
+<td>
+<input type="image" src="like.jpg" id="likee" onclick="like()"/><input type="text" class="text" value="480k" id="like"/>
+<input type="image" src="unlike.jpg" id="likee" onclick="unlike()"/><input type="text" class="text" value="800" id="unlike"/>
+<input type="image" src="share.png" id="likee" onclick="share()"/><input type="text" class="text" value="254K" id="share"/>
+<input type="image" src="save.png" id="likee" onclick="save()"/>
+<input type="image" src="more1.png" id="likee"/>
+</td>
+</table>
+<hr>
+<table width="700px">
+<th>
+<div>
+
+
+<a href="https://www.youtube.com/user/tamerhosny">
+<div>
+<table width="698px">
+<th>
+<table width="210px">
+<tr>
+<td rowspan="2"><img src="esh.jpg" id="tamerlink"></td>
+</tr>
+<tr>
+<td>
+<h4>Tamer Hosny <br><h5>5.05M subscribers</h5></h4>
+</td>
+</tr>
+</table>
+<th>
+</div>
+</table>
+</th>
+<th>
+<input type="image" src="sub.png" id="sub" onclick="sub()"/>
+</th>
+</tr>
+</table>
+<hr>
+<td>
+<a href="https://www.etisalat.com/"><img src="etisalat.png" id="etisalat"/></a>
+<a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I"><h3>Up to next</h3></a>
+
+<a href="https://www.youtube.com/watch?v=u0PlTxTVQ3I">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="naseny.jpg" class="videos"/></td>
+<td><h4>tamer hosny-naseny leh video <br>كليب تامر حسني - ناسيني ليه <br><h5>2.8M viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<hr>
+
+<a href="https://www.youtube.com/watch?v=xJom7RUo_dQ">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="hgag.jpg" class="videos"/></td>
+<td><h4>tamer hosny - 100 wesh video 4K/ <br> كليب تامر حسني و مصطفي حجاج-100 وش<br><h5>874K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=AX8QOuy7YJs">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="bdaya.jpg" class="videos"/></td>
+<td><h4>Hamaki - Mel Bedaya Official Lyrics <br>حماقي - م البداية - كلمات<br><h5>1.1M viewers</h5> </h4></td>
+</tr>
+</table>
+</div>
+</a>
+</td>
+</tr>
+</table>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------table3 for comments and other videos ------------------------------------------------------------------->
+
+
+<table id="table3">
+<tr>
+<td>
+<div id="mainvideo">
+<table width="818px">
+
+</table>
+</div>
+</td>
+
+
+<td>
+
+<a href="https://www.youtube.com/watch?v=7iSJbEUuRnE">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="ensay.jpg" class="videos"/></td>
+<td><h4>Ramadan & Saad Lamjarred - Ensay<br>محمد رمضان وسعد المجرد - إنساي<br><h5>585K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=a4nixJxV0FU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="adreen.png" class="videos"/></td>
+<td><h4>Hamaki - adreen ne'mlha 4K/<br>حماقي - قادرين نعملها<br><h5>348K viewers</h5></h4></a></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=RkmJwLALysM">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="wara.jpg" class="videos"/></td>
+<td><h4>Tamer vs ellisa - wara el shbabek<br>كليب تامر حسني و اليسا -من ورا الشبابيك<br><h5>134K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="drga.jpg" class="videos"/></a></td>
+<td><h4>tamer hosny -180 darga video 4K/<br>كليب تامر حسني -180 درجه<br><h5>1.5M viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=GlEKvonWaH4">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="serto.jpg" class="videos"/></td>
+</tr>
+<tr>
+<td><h4>أصالة - جابوا سيرته [Assala - Gabo Serto]<br><h5>857K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=olfKd-SHh30&list=RDu0PlTxTVQ3I&index=14">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="fad.jpg" class="videos"/></td>
+<td><h4>tamer hosny-fad bya video 4K/<br>كليب تامر حسني - فاض بيا<br><h5>980K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=aSyIrej6hyU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="orbak.jpg" class="videos"/></td>
+<td><h4>Assala - Fi Orbak [LYRICS VIDEO] 4K/<br>أصالة - في قربك<br><h5>765K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=1R0qL1exR9s">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="omry.jpg" class="videos"/></td>
+<td><h4>tamer hosny-omry ebtada video 4K/<br>كليب تامر حسني -عمري ابتدي<br><h5>741K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=f0X2mC6F9sg">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="sabok.jpg" class="videos"/></td>
+<td><h4>Assala - sabok [LYRICS VIDEO] 4K/<br>أصالة - سابوك<br><h5>865K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=nqPPCdlmmE4">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="kteer.jpg" class="videos"/></td>
+</tr>
+<tr>
+<td><h4>Ana Keter | شيرين - أنا كتير <br><h5>123K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=ncyVV9bwmdU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="esh.jpg" class="videos"/></td>
+<td><h4>tamer hosny-eish besho'ak video<br>كليب تامر حسني -عيش بشوقك<br><h5>652K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=cOzcBAoR1vU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="nsay.jpg" class="videos"/></td>
+</tr>
+<tr>
+<td><h4>Sherine - Nassay | شيرين - نساي <br><h5>132K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=g7bk98SNEbQ">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="bhbak.jpg" class="videos"/></td>
+<td><h4>tamer hosny-bahbak enta video 4K/<br>كليب تامر حسني -بحبك انت <br><h5>54K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=VQc613pd-2E">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="balash.jpg" class="videos"/></td>
+<td><h4>Hamaki - Ma Balash Clip<br>حماقي - كليب ما بلاش <br><h5>875K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=U_dGwmcwHxU">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="nancy.jpg" class="videos"/></td>
+<td><h4>tamer hosny vs nancy - ramadan<br>تامر حسني و نانسي عجرم- رمضان 2019 <br><h5>121K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=8qQ3v0o-xPY">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="baly.jpg" class="videos"/></td>
+</tr>
+<tr>
+<td><h4>Sherine - 3ala Bali | شيرين - على بالي <br><h5>632K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<img src="morevideos.png" align="center" id="showDiv"></image>
+
+<a href="https://www.youtube.com/watch?v=vEfW9sm70tg" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="mshar.jpg" class="videos"/></td>
+</tr>
+<tr>
+<td><h4>Sherine - Masha'er | شيرين - مشاعر<br><h5>748K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=7NLA5iSS2AQ" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="hyaty.jpg" class="videos"/></a></td>
+<td><h4>tamer hosny-ha3esh hiaty video<br>كليب تامر حسني -هعيش حياتي<br><h5>354K viewers</h5></h4></td>
+</tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=17dJ0TUgqGg" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="akheran.jpg" class="videos"/></td>
+<td><h4>/ W Akheran - Tamer Hosny From ElBadla<br>كليب اغنية و أخيراً - تامر حسني - من فيلم البدلة <br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=PqC3EAsa3Q0" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="b3dna.jpg" class="videos"/></td>
+<td><h4>Hamaki - Baedna Leh /<br> حماقي - بعدنا ليه<br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=17dJ0TUgqGg" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="ololo.jpg" class="videos"/></td>
+<td><h4>Tamer Ashour - Oloolo Samah |<br> (تامر عاشور - قولوله سماح <br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=Pma_IwydPmw" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="yara.jpg" class="videos"/></td>
+<td><h4>Yara - Ma Baaref - Official Video Clip /<br> يارا - ما بعرف <br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=Jl0-DnLwyc0" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="fahmy.jpg" class="videos"/></td>
+<td><h4>Ahmed Fahmi - Ehsas Ghareib Feat Mahmoud El Esseily <br>أحمد فهمى - إحساس غريب<br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="https://www.youtube.com/watch?v=YfPWKuVwiRQ" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="diman.jpg" class="videos"/></td>
+<td><h4>Dayman Maak - Tamer Hosny <br>دايما معاك - تامر حسنى<br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+<a href="youtube.com/watch?v=fbK2ySlxAW4" class="myDiv" style="display:none;">
+<div>
+<table>
+<tr>
+<td rowspan="2"><img src="mktoba.jpg" class="videos"/></td>
+<td><h4>Elissa ... Maktooba Leek - With Lyrics |<br> إليسا ... مكتوبة ليك - بالكلمات <br><h5>121K viewers</h5></h4></td>
+</tr>
+<tr>
+</table>
+</div>
+</a>
+<br>
+
+
+
+</td>
+</tr>
+</table>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>
